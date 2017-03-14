@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02B47AE5437FBD085029FB2D /* libPods-xinxinLove.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A56168AE2BC952B7B4B4EF80 /* libPods-xinxinLove.a */; };
 		5CF5E2951E77C4A3008CE925 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF5E2941E77C4A3008CE925 /* main.m */; };
 		5CF5E2981E77C4A3008CE925 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF5E2971E77C4A3008CE925 /* AppDelegate.m */; };
 		5CF5E29B1E77C4A3008CE925 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF5E29A1E77C4A3008CE925 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		5CF5E2A31E77C4A3008CE925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF5E2A11E77C4A3008CE925 /* LaunchScreen.storyboard */; };
 		5CF5E2AE1E77C4A3008CE925 /* xinxinLoveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF5E2AD1E77C4A3008CE925 /* xinxinLoveTests.m */; };
 		5CF5E2B91E77C4A3008CE925 /* xinxinLoveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF5E2B81E77C4A3008CE925 /* xinxinLoveUITests.m */; };
+		B72B46B5B540AE48EA0A6A1E /* libPods-xinxinLoveUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D7578111050BDB50E6BD06 /* libPods-xinxinLoveUITests.a */; };
+		E48DD25CC97E55DF85713BED /* libPods-xinxinLoveTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D886BE85C649B45EEEC76C3 /* libPods-xinxinLoveTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D0744C296EC0B05AF426A67 /* Pods-xinxinLoveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xinxinLoveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xinxinLoveUITests/Pods-xinxinLoveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D886BE85C649B45EEEC76C3 /* libPods-xinxinLoveTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xinxinLoveTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		595F4166D9BACEDAA49E5F70 /* Pods-xinxinLove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xinxinLove.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xinxinLove/Pods-xinxinLove.debug.xcconfig"; sourceTree = "<group>"; };
 		5CF5E2901E77C4A3008CE925 /* xinxinLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xinxinLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF5E2941E77C4A3008CE925 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5CF5E2961E77C4A3008CE925 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		5CF5E2B41E77C4A3008CE925 /* xinxinLoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xinxinLoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF5E2B81E77C4A3008CE925 /* xinxinLoveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xinxinLoveUITests.m; sourceTree = "<group>"; };
 		5CF5E2BA1E77C4A3008CE925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67D7578111050BDB50E6BD06 /* libPods-xinxinLoveUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xinxinLoveUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8344D7AFAA5EDEDEE4118CFC /* Pods-xinxinLoveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xinxinLoveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xinxinLoveTests/Pods-xinxinLoveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A40F92B58675D968B6098347 /* Pods-xinxinLoveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xinxinLoveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-xinxinLoveTests/Pods-xinxinLoveTests.release.xcconfig"; sourceTree = "<group>"; };
+		A56168AE2BC952B7B4B4EF80 /* libPods-xinxinLove.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xinxinLove.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACABA165107E04A0F380215E /* Pods-xinxinLove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xinxinLove.release.xcconfig"; path = "Pods/Target Support Files/Pods-xinxinLove/Pods-xinxinLove.release.xcconfig"; sourceTree = "<group>"; };
+		E8F568ABDFA2BA7498C85970 /* Pods-xinxinLoveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xinxinLoveUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-xinxinLoveUITests/Pods-xinxinLoveUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02B47AE5437FBD085029FB2D /* libPods-xinxinLove.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E48DD25CC97E55DF85713BED /* libPods-xinxinLoveTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B72B46B5B540AE48EA0A6A1E /* libPods-xinxinLoveUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		433029F8F254381710DE2DCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A56168AE2BC952B7B4B4EF80 /* libPods-xinxinLove.a */,
+				2D886BE85C649B45EEEC76C3 /* libPods-xinxinLoveTests.a */,
+				67D7578111050BDB50E6BD06 /* libPods-xinxinLoveUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5CF5E2871E77C4A3008CE925 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				5CF5E2AC1E77C4A3008CE925 /* xinxinLoveTests */,
 				5CF5E2B71E77C4A3008CE925 /* xinxinLoveUITests */,
 				5CF5E2911E77C4A3008CE925 /* Products */,
+				69040C93BD60D36E42A416AE /* Pods */,
+				433029F8F254381710DE2DCF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +167,19 @@
 			path = xinxinLoveUITests;
 			sourceTree = "<group>";
 		};
+		69040C93BD60D36E42A416AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				595F4166D9BACEDAA49E5F70 /* Pods-xinxinLove.debug.xcconfig */,
+				ACABA165107E04A0F380215E /* Pods-xinxinLove.release.xcconfig */,
+				8344D7AFAA5EDEDEE4118CFC /* Pods-xinxinLoveTests.debug.xcconfig */,
+				A40F92B58675D968B6098347 /* Pods-xinxinLoveTests.release.xcconfig */,
+				0D0744C296EC0B05AF426A67 /* Pods-xinxinLoveUITests.debug.xcconfig */,
+				E8F568ABDFA2BA7498C85970 /* Pods-xinxinLoveUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CF5E2BD1E77C4A3008CE925 /* Build configuration list for PBXNativeTarget "xinxinLove" */;
 			buildPhases = (
+				E204E8D7BACE206DB1DA0149 /* [CP] Check Pods Manifest.lock */,
 				5CF5E28C1E77C4A3008CE925 /* Sources */,
 				5CF5E28D1E77C4A3008CE925 /* Frameworks */,
 				5CF5E28E1E77C4A3008CE925 /* Resources */,
+				545FFCC1650968082798521F /* [CP] Embed Pods Frameworks */,
+				A639C6FD9A9D232C4ECC8553 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CF5E2C01E77C4A3008CE925 /* Build configuration list for PBXNativeTarget "xinxinLoveTests" */;
 			buildPhases = (
+				89C68F37E2A430B49857018B /* [CP] Check Pods Manifest.lock */,
 				5CF5E2A51E77C4A3008CE925 /* Sources */,
 				5CF5E2A61E77C4A3008CE925 /* Frameworks */,
 				5CF5E2A71E77C4A3008CE925 /* Resources */,
+				94F8CF26383BF719B1E4921D /* [CP] Embed Pods Frameworks */,
+				D48D4D1B2A91CF2D6C95242B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CF5E2C31E77C4A3008CE925 /* Build configuration list for PBXNativeTarget "xinxinLoveUITests" */;
 			buildPhases = (
+				FB5C5673E145D13A9C589389 /* [CP] Check Pods Manifest.lock */,
 				5CF5E2B01E77C4A3008CE925 /* Sources */,
 				5CF5E2B11E77C4A3008CE925 /* Frameworks */,
 				5CF5E2B21E77C4A3008CE925 /* Resources */,
+				4583B4B16A1EC25F398228D5 /* [CP] Embed Pods Frameworks */,
+				AE8A1984F5A4EDEEB30D91FC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +256,7 @@
 				TargetAttributes = {
 					5CF5E28F1E77C4A3008CE925 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = P956ZH87BE;
 						ProvisioningStyle = Automatic;
 					};
 					5CF5E2A81E77C4A3008CE925 = {
@@ -267,6 +317,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4583B4B16A1EC25F398228D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xinxinLoveUITests/Pods-xinxinLoveUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		545FFCC1650968082798521F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xinxinLove/Pods-xinxinLove-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89C68F37E2A430B49857018B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94F8CF26383BF719B1E4921D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xinxinLoveTests/Pods-xinxinLoveTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A639C6FD9A9D232C4ECC8553 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xinxinLove/Pods-xinxinLove-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE8A1984F5A4EDEEB30D91FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xinxinLoveUITests/Pods-xinxinLoveUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D48D4D1B2A91CF2D6C95242B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xinxinLoveTests/Pods-xinxinLoveTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E204E8D7BACE206DB1DA0149 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB5C5673E145D13A9C589389 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5CF5E28C1E77C4A3008CE925 /* Sources */ = {
@@ -422,8 +610,10 @@
 		};
 		5CF5E2BE1E77C4A3008CE925 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595F4166D9BACEDAA49E5F70 /* Pods-xinxinLove.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P956ZH87BE;
 				INFOPLIST_FILE = xinxinLove/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.xinxinLove;
@@ -433,8 +623,10 @@
 		};
 		5CF5E2BF1E77C4A3008CE925 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACABA165107E04A0F380215E /* Pods-xinxinLove.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P956ZH87BE;
 				INFOPLIST_FILE = xinxinLove/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.xinxinLove;
@@ -444,6 +636,7 @@
 		};
 		5CF5E2C11E77C4A3008CE925 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8344D7AFAA5EDEDEE4118CFC /* Pods-xinxinLoveTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = xinxinLoveTests/Info.plist;
@@ -456,6 +649,7 @@
 		};
 		5CF5E2C21E77C4A3008CE925 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A40F92B58675D968B6098347 /* Pods-xinxinLoveTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = xinxinLoveTests/Info.plist;
@@ -468,6 +662,7 @@
 		};
 		5CF5E2C41E77C4A3008CE925 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D0744C296EC0B05AF426A67 /* Pods-xinxinLoveUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = xinxinLoveUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -479,6 +674,7 @@
 		};
 		5CF5E2C51E77C4A3008CE925 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F568ABDFA2BA7498C85970 /* Pods-xinxinLoveUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = xinxinLoveUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -507,6 +703,7 @@
 				5CF5E2BF1E77C4A3008CE925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CF5E2C01E77C4A3008CE925 /* Build configuration list for PBXNativeTarget "xinxinLoveTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +712,7 @@
 				5CF5E2C21E77C4A3008CE925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CF5E2C31E77C4A3008CE925 /* Build configuration list for PBXNativeTarget "xinxinLoveUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +721,7 @@
 				5CF5E2C51E77C4A3008CE925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
