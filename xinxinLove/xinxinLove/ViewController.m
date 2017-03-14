@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"这是一个测试项目");
+    NSLog(@"测试分支和master有啥不一样");
 }
 
 
