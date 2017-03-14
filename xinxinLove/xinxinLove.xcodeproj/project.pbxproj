@@ -16,6 +16,8 @@
 		5CF5E2A31E77C4A3008CE925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF5E2A11E77C4A3008CE925 /* LaunchScreen.storyboard */; };
 		5CF5E2AE1E77C4A3008CE925 /* xinxinLoveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF5E2AD1E77C4A3008CE925 /* xinxinLoveTests.m */; };
 		5CF5E2B91E77C4A3008CE925 /* xinxinLoveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF5E2B81E77C4A3008CE925 /* xinxinLoveUITests.m */; };
+		5CF5E2CB1E77E02E008CE925 /* ZLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF5E2C91E77E02E008CE925 /* ZLViewController.m */; };
+		5CF5E2CC1E77E02E008CE925 /* ZLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CF5E2CA1E77E02E008CE925 /* ZLViewController.xib */; };
 		B72B46B5B540AE48EA0A6A1E /* libPods-xinxinLoveUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D7578111050BDB50E6BD06 /* libPods-xinxinLoveUITests.a */; };
 		E48DD25CC97E55DF85713BED /* libPods-xinxinLoveTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D886BE85C649B45EEEC76C3 /* libPods-xinxinLoveTests.a */; };
 /* End PBXBuildFile section */
@@ -57,6 +59,9 @@
 		5CF5E2B41E77C4A3008CE925 /* xinxinLoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xinxinLoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF5E2B81E77C4A3008CE925 /* xinxinLoveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xinxinLoveUITests.m; sourceTree = "<group>"; };
 		5CF5E2BA1E77C4A3008CE925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF5E2C81E77E02E008CE925 /* ZLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLViewController.h; sourceTree = "<group>"; };
+		5CF5E2C91E77E02E008CE925 /* ZLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLViewController.m; sourceTree = "<group>"; };
+		5CF5E2CA1E77E02E008CE925 /* ZLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLViewController.xib; sourceTree = "<group>"; };
 		67D7578111050BDB50E6BD06 /* libPods-xinxinLoveUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xinxinLoveUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8344D7AFAA5EDEDEE4118CFC /* Pods-xinxinLoveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xinxinLoveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xinxinLoveTests/Pods-xinxinLoveTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A40F92B58675D968B6098347 /* Pods-xinxinLoveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xinxinLoveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-xinxinLoveTests/Pods-xinxinLoveTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +142,9 @@
 				5CF5E2A11E77C4A3008CE925 /* LaunchScreen.storyboard */,
 				5CF5E2A41E77C4A3008CE925 /* Info.plist */,
 				5CF5E2931E77C4A3008CE925 /* Supporting Files */,
+				5CF5E2C81E77E02E008CE925 /* ZLViewController.h */,
+				5CF5E2C91E77E02E008CE925 /* ZLViewController.m */,
+				5CF5E2CA1E77E02E008CE925 /* ZLViewController.xib */,
 			);
 			path = xinxinLove;
 			sourceTree = "<group>";
@@ -298,6 +306,7 @@
 			files = (
 				5CF5E2A31E77C4A3008CE925 /* LaunchScreen.storyboard in Resources */,
 				5CF5E2A01E77C4A3008CE925 /* Assets.xcassets in Resources */,
+				5CF5E2CC1E77E02E008CE925 /* ZLViewController.xib in Resources */,
 				5CF5E29E1E77C4A3008CE925 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,6 +472,7 @@
 			files = (
 				5CF5E29B1E77C4A3008CE925 /* ViewController.m in Sources */,
 				5CF5E2981E77C4A3008CE925 /* AppDelegate.m in Sources */,
+				5CF5E2CB1E77E02E008CE925 /* ZLViewController.m in Sources */,
 				5CF5E2951E77C4A3008CE925 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
