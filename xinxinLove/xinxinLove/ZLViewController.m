@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"第二个控制器";
+    
+    
+    
+    self.view.backgroundColor = [UIColor redColor];
+    NSLog(@"这是在spring1分支上写的");
 }
 
 /*
