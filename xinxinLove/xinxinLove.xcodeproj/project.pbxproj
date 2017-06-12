@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		02B47AE5437FBD085029FB2D /* libPods-xinxinLove.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A56168AE2BC952B7B4B4EF80 /* libPods-xinxinLove.a */; };
+		5C9888621EEE6F9100CB6330 /* DispatchQueueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9888611EEE6F9000CB6330 /* DispatchQueueManager.m */; };
 		5CF5E2951E77C4A3008CE925 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF5E2941E77C4A3008CE925 /* main.m */; };
 		5CF5E2981E77C4A3008CE925 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF5E2971E77C4A3008CE925 /* AppDelegate.m */; };
 		5CF5E29B1E77C4A3008CE925 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF5E29A1E77C4A3008CE925 /* ViewController.m */; };
@@ -43,6 +44,8 @@
 		0D0744C296EC0B05AF426A67 /* Pods-xinxinLoveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xinxinLoveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xinxinLoveUITests/Pods-xinxinLoveUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D886BE85C649B45EEEC76C3 /* libPods-xinxinLoveTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xinxinLoveTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		595F4166D9BACEDAA49E5F70 /* Pods-xinxinLove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xinxinLove.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xinxinLove/Pods-xinxinLove.debug.xcconfig"; sourceTree = "<group>"; };
+		5C9888601EEE6F9000CB6330 /* DispatchQueueManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueManager.h; sourceTree = "<group>"; };
+		5C9888611EEE6F9000CB6330 /* DispatchQueueManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueManager.m; sourceTree = "<group>"; };
 		5CF5E2901E77C4A3008CE925 /* xinxinLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xinxinLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF5E2941E77C4A3008CE925 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5CF5E2961E77C4A3008CE925 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -145,6 +148,8 @@
 				5CF5E2C81E77E02E008CE925 /* ZLViewController.h */,
 				5CF5E2C91E77E02E008CE925 /* ZLViewController.m */,
 				5CF5E2CA1E77E02E008CE925 /* ZLViewController.xib */,
+				5C9888601EEE6F9000CB6330 /* DispatchQueueManager.h */,
+				5C9888611EEE6F9000CB6330 /* DispatchQueueManager.m */,
 			);
 			path = xinxinLove;
 			sourceTree = "<group>";
@@ -471,6 +476,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CF5E29B1E77C4A3008CE925 /* ViewController.m in Sources */,
+				5C9888621EEE6F9100CB6330 /* DispatchQueueManager.m in Sources */,
 				5CF5E2981E77C4A3008CE925 /* AppDelegate.m in Sources */,
 				5CF5E2CB1E77E02E008CE925 /* ZLViewController.m in Sources */,
 				5CF5E2951E77C4A3008CE925 /* main.m in Sources */,
